@@ -35,12 +35,15 @@
         justify-content: center;
     }
     .rodape__card{
-        width: 13%;
+        width: 20%;
     }
     .rodape__card__texto{
         display: inline-block;
         padding: 2em;
         font-size: 20px;
+    }
+    .rodape__card__localizacao-img{
+        width: 30%;
     }
     .container__habilidades__card{
         justify-content: center;
