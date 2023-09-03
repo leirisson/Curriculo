@@ -30,5 +30,10 @@ margin: 1em 0;
 .containner__perfil-pessoa-texto{
     padding: 1em;
     text-align: justify;
+    width: 75%;
   
+}
+.banner__texto__sub-titulo{
+    margin: 2px;
+    color: var(--cor-amarelo-claro);
 }

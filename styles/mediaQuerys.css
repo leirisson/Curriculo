@@ -33,6 +33,7 @@
     }
     .banner__texto__sub-titulo{
         font-size: 35px;
+        color: var(--cor-amarelo-claro);
     }
     .containner__perfil-pessoal-titulo{
         font-size: 30px;
@@ -40,6 +41,7 @@
     }
     .containner__perfil-pessoa-texto{
         font-size: 25px;
+        width: 75%;
     }
 
     .rodape{
@@ -59,5 +61,47 @@
     .rodape__card__texto{
         display: none;
     }
+
+    .container__experiencias{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .card__experiencias-img{
+        width: 50%;
+    }
+    .card__experiencias-texto{
+        text-align: center;
+    }
+    .card__experiencias__lista{
+        display: none;
+    }
+
+    .card__experiencias{
+        width:50%;
+    }
+
+    .container__formacoes{
+        justify-content: space-around;
+        display: flex ;
+        flex-direction: column;
+    }
+    .container__formacoes-principais{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0.5em;
+    }
     
+    .container__formacoes__curso-img{
+        box-shadow: 3px 3px 7px rgba(255, 255, 255, 1);
+    }
+    .conatiner__formacoes__titulo{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .container__formacoes__curso-descricao{
+        padding: 0.5em;
+    }
 }

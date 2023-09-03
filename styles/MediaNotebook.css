@@ -1,0 +1,80 @@
+@media screen and (min-width:1728px){
+    .opcoes{
+        justify-content:right
+    }
+    .cabecalho__opcoes__menu{
+        display: flex;
+        justify-content: space-around;
+    }
+    .cabecalho__opcoes__menu__li{
+        font-size: 25px;
+    }
+    .banner__perfil{
+        justify-content: center;
+        padding: 5em;
+    }
+    .banner__texto__titulo{
+        margin: 1px;
+        font-size: 50px;
+    }
+    .banner__texto__sub-titulo{
+        margin: 2px;
+        color: var(--cor-amarelo-claro);
+    }
+
+    .containner__perfil-pessoal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .containner__perfil-pessoa-texto{
+        width: 75%;
+    }
+    .rodape{
+        display: flex;
+        justify-content: center;
+    }
+    .rodape__card{
+        width: 13%;
+    }
+    .rodape__card__texto{
+        display: inline-block;
+        padding: 2em;
+        font-size: 20px;
+    }
+    .container__habilidades__card{
+        justify-content: center;
+        width: 50%;
+        align-self: center;
+    }
+    .container__habilidades__card__lista{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .container__habilidades__card__lista-item{
+        width: 50%;
+        font-size: 20px;
+    }
+    .container__habilidades__titulo{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .container__formacoes{
+        width: 50%;
+        margin: auto;
+    }
+    .container__formacoes-principais{
+        padding: 2em;
+    }
+
+    .conatiner__formacoes__titulo{
+        font-size: 25px;
+    }
+    .container__formacoes__curso-descricao{
+        font-size: 20px;
+    }
+
+}
