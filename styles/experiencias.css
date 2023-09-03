@@ -1,0 +1,28 @@
+.container__experiencias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card__experiencias{
+    background-color: var(--cor-verde-secundario);
+    border-radius: 14px;
+    margin: 2em auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    margin: 2em;
+}
+.card__experiencias-titulo{
+    padding: 0.5em;
+    font-weight: 400;
+}
+.card__experiencias-texto{
+    padding: 0.5em;
+}
+.card__experiencias__lista{
+    padding: 1em;
+}
+.card__experiencias__lista-item{
+    padding: 0.5em;
+}

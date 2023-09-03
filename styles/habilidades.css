@@ -1,0 +1,20 @@
+.container__habilidades{
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+.container__habilidades__titulo{
+    text-align: center;
+    padding: 1em;
+    font-size: 20px;
+}
+.container__habilidades__card{
+    padding: 1em;
+    margin: 1em;
+    background-color: var(--cor-verde-secundario);
+    border-radius: 14px;
+}
+
+.container__habilidades__card__lista-item{
+    padding: 0.5em;
+}

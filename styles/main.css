@@ -1,0 +1,25 @@
+@import url("./reset.css");
+@import url("../styles/banner.css");
+@import url("./header.css");
+@import url("./cabecalho.css");
+@import url("../styles/footer.css");
+@import url("./habilidades.css");
+@import url("./experiencias.css");
+
+:root{
+    --cor-preto-principal: #040D12;
+    --cor-branco: #fff;
+    --cor-verde-secundario: #183D3D;
+    --cor-cinza-escuro: #030508;
+    --cor-amarelo-claro: #F7E987;
+
+    --font-principapl: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body{
+    background: var( --cor-preto-principal);
+    color: var(--cor-branco);
+    font-family: var(--font-principapl);
+    height: 100%;
+}

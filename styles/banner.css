@@ -1,0 +1,34 @@
+.banner__texto{
+    padding: 1em;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+.banner__texto-titulo{
+    padding: 1em;
+}
+.banner__perfil{
+    background-color: var(--cor-verde-secundario);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: 1em;
+}
+.banner__img__perfil{
+margin: 1em 0;
+}
+.containner__perfil-pessoal{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+
+.containner__perfil-pessoa-texto{
+    padding: 1em;
+    text-align: justify;
+  
+}
