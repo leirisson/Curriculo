@@ -1,0 +1,63 @@
+.opcoes{
+    display: none;
+}
+/*index*/
+@media screen and (min-width:1024px){
+    .cabecalho__menu__hamburguer{
+        display: none;
+    }
+    .opcoes{
+        display: flex;
+        justify-content: space-around;
+        padding: 2em;
+        font-weight:700;
+    }
+    .cabecalho__opcoes__menu{
+        display: flex;
+    }
+    .cabecalho__opcoes__menu__li{
+        padding: 1em;
+        font-size: 20px;
+
+    }
+    .banner__texto{
+        font-size: 25px;
+    }
+    .banner__perfil{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .banner__texto__titulo{
+        font-size: 35px;
+    }
+    .banner__texto__sub-titulo{
+        font-size: 35px;
+    }
+    .containner__perfil-pessoal-titulo{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .containner__perfil-pessoa-texto{
+        font-size: 25px;
+    }
+
+    .rodape{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 15vw;
+    }
+    .rodape__card{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .rodape__card__localizacao-img{
+        width: 50%;
+    }
+    .rodape__card__texto{
+        display: none;
+    }
+    
+}

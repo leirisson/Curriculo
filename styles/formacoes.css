@@ -1,0 +1,21 @@
+.container__formacoes-principais{
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    margin: 1em 2em;
+    justify-content: space-around;
+    border-radius: 14px;
+    background-color: var(--cor-verde-secundario);
+}
+
+.conatiner__formacoes__titulo{
+    padding: 0.5em;
+    text-align: center;
+}
+.container__formacoes__texto{
+    padding: 1em;
+    width: 90%;
+}
+.container__formacoes__curso-img{
+    width: 100%;
+}

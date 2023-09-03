@@ -6,6 +6,7 @@
 @import url("./habilidades.css");
 @import url("./experiencias.css");
 @import url("formacoes.css");
+@import url("mediaQuerys.css");
 
 :root{
     --cor-preto-principal: #040D12;

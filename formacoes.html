@@ -19,35 +19,91 @@
             <li class="cabecalho__menu__li"><a href="experiencia.html" class="cabecalho__menu__li-link"> Experiências</a></li>
             <li class="cabecalho__menu__li"><a href="formacoes.html" class="cabecalho__menu__li-link"> Formnações</a></li>
         </ul>
+        <div class="opcoes">
+          <ul class="cabecalho__opcoes__menu">
+              <li class="cabecalho__opcoes__menu__li"> <a href="index.html"  class="cabecalho__menu__li__link">Home</a></li>
+              <li class="cabecalho__opcoes__menu__li"> <a href="habilidades.html"  class="cabecalho__menu__li__link">Habilidades</a></li>
+              <li class="cabecalho__opcoes__menu__li"><a href="experiencia.html" class="cabecalho__menu__li-link"> Experiências</a></li>
+              <li class="cabecalho__opcoes__menu__li"><a href="formacoes.html" class="cabecalho__menu__li-link"> Formnações</a></li>
+          </ul>
+      </div>
 
     </header>
 
     <main class="container__formacoes">
       <section class="container__formacoes-principais">
-        <h2 class="conatiner__formacoes__titulos">
-          FORMAÇÃO
-        </h2>
-        <ul class="container__formacoes__lista">
-          <li class="container__formacoes__curso">Ensino técnico completo
-            em informática (IFAM)
-            </li>
-          <li class="container__formacoes__curso">
-            Cursando Analise e
-  Desenvolvimento de sistemas
-  (Wyden)
-  
-          </li>
-        </ul>
+        <img src="./assets/ifam.png" alt="" class="container__formacoes__curso-img">
+        <div class="container__formacoes__texto">
+          <h2 class="conatiner__formacoes__titulo"> FORMAÇÕES </h2>
+          <p class="container__formacoes__curso-descricao">Ensino técnico completo em informática (IFAM)</p>
+        </div>
+   
       </section>
-      <section class="container__formacoes-secundarias">
-        <h2 class="conatiner__formacoes__titulos">
-          FORMAÇÃO COMPLEMENTAR
-        </h2>
-        <ul container__formacoes__lista></ul>
-        <li container__formacoes__curso>
-           </li>
+      <section class="container__formacoes-principais">
+        <img src="./assets/wyden-foto.png" alt="" class="container__formacoes__curso-img">
+        <div class="container__formacoes__texto">
+          <h2 class="conatiner__formacoes__titulo"> FORMAÇÕES </h2>
+          <p class="container__formacoes__curso-descricao">Cursando Analise e
+            Desenvolvimento de sistemas
+            (Wyden)</p>
+        </div>
       </section>
+      <section class="cursos-complementares">
+        <div class="container__formacoes-principais">
+          <img src="./assets/power-bi.png" class="container__formacoes__curso-img" alt="" srcset="">
+          <div class="container__formacoes__texto">
+            <h2 class="conatiner__formacoes__titulo">Power BI</h2>
+            <p class="container__formacoes__curso-descricao">
+              Power BI Desktop: construindo
+              dashboard
+              Power BI: mergulhando na
+              linguagem M
+              Power BI Desktop: tratamentos
+              de dados no power query
+              Power BI: aplicando Dax ao
+              negocio
+              Power BI: entendendo
+              formulas dax
+              Power BI: modelagem de
+              dados
+            </p>
+          </div>
+        </section>
+        <section class="cursos-complementares">
+            <div class="container__formacoes-principais">
+              <img src="./assets/python-img.jpg" class="container__formacoes__curso-img" alt="" srcset="">
+              <div class="container__formacoes__texto">
+                <h2 class="conatiner__formacoes__titulo"> Python</h2>
+                <p class="container__formacoes__curso-descricao">
+                  python: començando com a Linguagem<br>
+                  Python: avançando na linguagem
+                  Python: entendendo a orientação a objetos
+                </p>
+              </div>
+            </div>
+        </section>
+     
     </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <footer class="rodape">
         <div class="rodape__card">
@@ -56,33 +112,20 @@
               Manaus, AM
               CEP: 69020-720</p>
         </div>
-        <div class="rodape__card">
-          <img src="./assets/email.png" class="rodape__card__localizacao-img" alt="logo e-mail">
-          <p class="rodape__card__texto">leirissonsouza99@gmail.com
-          </p>
-        </div>
-        <div class="rodape__card">
-          <img src="./assets/telefone.png"  class="rodape__card__localizacao-img" alt="logo telefone">
-          <p class="rodape__card__texto">(92) 993129862</p>
-        </div>
-        <div class="rodape__card">
-          <img src="./assets/linkedin.png" class="rodape__card__localizacao-img" alt="logo linkedin">
-          <p class="rodape__card__texto">Linkein</p>
-        </div>
+          <div class="rodape__card">
+            <img src="./assets/email.png" class="rodape__card__localizacao-img" alt="logo e-mail">
+            <p class="rodape__card__texto">
+              leirissonsouza99@gmail.com
+            </p>
+          </div>
+          <div class="rodape__card">
+            <img src="./assets/telefone.png"  class="rodape__card__localizacao-img" alt="logo telefone">
+            <p class="rodape__card__texto">(92) 993129862</p>
+          </div>
+          <div class="rodape__card">
+            <img src="./assets/linkedin.png" class="rodape__card__localizacao-img" alt="logo linkedin">
+            <p class="rodape__card__texto">Linkein</p>
+          </div>
       </footer>
-
-      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-  <script>
-    const swiper = new Swiper(".swiper", {
-      speed: 400,
-      spaceBetween: 10,
-      slidesPerView: 3,
-      pagination: {
-        el: ".swiper-pagination",
-        type: "bullets",
-      },
-    });
-  </script>
-
 </body>
 </html>
