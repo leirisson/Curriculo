@@ -5,6 +5,7 @@
 @import url("../styles/footer.css");
 @import url("./habilidades.css");
 @import url("./experiencias.css");
+@import url("formacoes.css");
 
 :root{
     --cor-preto-principal: #040D12;
